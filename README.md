@@ -7,7 +7,7 @@ This repository contains R codes about the Causal Inference.
 - create a directory for docker
 - make a YAML file as follows
 
-```yaml: docker-compose.yml
+```YAML:docker-compose.yml
 version: '3'
 
 services:
