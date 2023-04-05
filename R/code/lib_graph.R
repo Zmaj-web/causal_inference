@@ -2,7 +2,7 @@
 
 install.packages("xts") # data type in Time Anal.
 install.packages("forecast") # make and predict model
-install.packages("urca") # unit root test(stationarity T/F)
+install.packages("urca") # unit root test(stationary T/F)
 install.packages("ggplot2") # draw a graph
 install.packages("ggfortify")
 

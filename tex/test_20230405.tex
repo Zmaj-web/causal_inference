@@ -1,0 +1,116 @@
+\documentclass[12pt, leqno, twoside]{article}
+\usepackage{amsmath, amsthm, amsfonts, amssymb, graphicx, color}
+\usepackage[notref,notcite]{showkeys}
+\usepackage{esint}
+\setlength{\topmargin}{5mm}
+\setlength{\oddsidemargin}{7mm}
+\setlength{\evensidemargin}{7mm}
+\textwidth=33cc
+\textheight=48cc
+
+\numberwithin{equation}{section}
+     \newtheorem{thm}{Theorem}[section]
+     \newtheorem{cor}[thm]{Corollary}
+     \newtheorem{prop}[thm]{Proposition}
+     \newtheorem{lem}[thm]{Lemma}
+\theoremstyle{definition}
+      \newtheorem{defn}{Definition}[section]
+     \newtheorem{exmp}{Example}[section]
+\theoremstyle{remark}
+     \newtheorem{rem}{Remark}[section]
+
+\renewcommand{\labelenumi}{{\rm(\roman{enumi})}}
+
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\T}{\mathbb{T}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\cA}{\mathcal{A}}
+\newcommand{\cC}{\mathcal{C}}
+\newcommand{\cF}{\mathcal{F}}
+\newcommand{\cG}{\mathcal{G}}
+\newcommand{\cI}{\mathcal{I}}
+\newcommand{\cL}{\mathcal{L}}
+\newcommand{\cM}{\mathcal{M}}
+\newcommand{\cN}{\mathcal{N}}
+\newcommand{\cQ}{\mathcal{Q}}
+\newcommand{\cS}{\mathcal{S}}
+\newcommand{\cT}{\mathcal{T}}
+\newcommand{\cY}{\mathcal{Y}}
+
+\newcommand{\Lip}{\mathrm{Lip}}
+
+\newcommand{\supp}{\operatorname{supp}}
+\newcommand{\esssup}{\mathop{\mathrm{ess\,sup}}}
+\newcommand{\essinf}{\mathop{\mathrm{ess\,inf}}}
+
+\newcommand{\ls}{\lesssim}
+\newcommand{\gs}{\gtrsim}
+
+\newcommand{\Cic}{C^{\infty}_{\comp}}
+\newcommand{\Lic}{L^{\infty}_{\comp}}
+
+\newcommand{\dlim}{\displaystyle\lim}
+\newcommand{\dint}{\displaystyle\int}
+\newcommand{\sgn}{\mathrm{sgn}}
+
+\pagestyle{plain}
+
+\begin{document}
+
+\baselineskip=18pt
+
+\title{
+test title
+}
+\author{test Author}
+%\date{}
+
+\maketitle
+
+\begin{abstract}
+test abstract
+\end{abstract}
+
+%%%===================================================================
+%%%===================================================================
+\section{Introduction}\label{sec:intro}
+%%%===================================================================
+%%%===================================================================
+
+Let $\R^n$ be the $n$-dimensional Euclidean space.
+For a function $I:(0,\infty)\to(0,\infty)$, let
+\begin{equation}\label{test}
+	I(x) = \int_{0}^{x} t \,dt.
+\end{equation}
+\begin{equation*}
+a^2 + b^2 = c^2
+\end{equation*}
+
+
+%%%===================================================================
+%%%===================================================================
+\section{Definitions and the main result}\label{sec:main}
+%%%===================================================================
+%%%===================================================================
+
+%%%=============
+\begin{defn}
+%%%=============
+$\alpha$: limit value
+\[
+     \lim_{n \to \infty} a_{n} = \alpha
+\]
+\end{defn}
+%%%=============
+\begin{thm}
+%%%=============
+\[
+     \lim_{n \to \infty} a_{n} = \alpha,\,
+     \lim_{n \to \infty} b_{n} = \beta,\,\text{ then }
+     \lim_{n \to \infty} (a_{n} + b_{n}) = \alpha + \beta
+\]
+\end{thm}
+
+\end{document}
