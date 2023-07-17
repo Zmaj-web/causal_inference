@@ -4,3 +4,4 @@ R/.local
 tex/*.aux
 tex/*.log
 tex/*.gz
+venv

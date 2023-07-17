@@ -28,3 +28,9 @@ services:
 - input a user information
   - user name
   - password
+
+## how to use venv
+
+- ```virtualenv venv```
+- ```source venv/Scripts/activate```
+- ```pip install {arbitrary library}```
